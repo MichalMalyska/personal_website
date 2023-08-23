@@ -3,12 +3,13 @@ title: Michal Malyska
 description: Personal Site of Michal Malyska
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://michalmalyska.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# url: "localhost:3000"
 
 # User settings
 username: Michal Malyska
-user_description: Hi, I'm Michal \n I'm a Machine Learning Scientist/Engineer. \n\n I spent last 3 years at [Semantic Health](https://betakit.com/semantic-health-comes-out-of-stealth-to-help-hospitals-use-coded-data/) where I was the first employee and led the Machine Learning arm of the company. Before that I briefly worked at Deloitte and Intact Financial in insurance analytics.
 user_title: Applied Machine Learning
 email: malyskamichal@gmail.com
+cv: michalmalyska.com/cv.pdf
 twitter_username: MichalMalyska
 instagram_username: michal_mlsk
 # facebook_username: mauricio.urraco
