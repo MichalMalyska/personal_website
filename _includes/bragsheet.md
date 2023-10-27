@@ -43,6 +43,7 @@
 * Found and solved a bug in a huge open-source framework (AllenNLP)
 * Drove the company culture through hosting weekly games sessions, playing the clown in meetings.
 * Created a comprehensive testing suite for the ML stack -> minified models
+* Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing downstream model performance by 35%
 
 # Semantic - Lead (2021-2022)
 
