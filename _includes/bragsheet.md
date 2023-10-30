@@ -1,4 +1,4 @@
-# Semantic - Lead (2021-2022)
+# Semantic Health - ML Lead (2021-2022)
 
 * Hired and lead a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership capabilities.
 * Defined Hiring Policies and Interview Processes: Established effective hiring policies, interview questions, scoring systems, and take-home assignments to identify top talent for ML, Data Engineering, and Backend roles.
@@ -28,7 +28,7 @@
 * Offered to return to teach the Jimmy Ba Deep Learning course
 * Modernized the course curriculum adding Attention, Transformers, and diffusion models to the class
 
-# Semantic - IC (2019-2020)
+# Semantic Health - Machine Learning Scientist (2019-2020)
 
 * Joined as first (and only technical) employee - architected and built the entire ML stack setting the foundation for the company's AI capabilities
 * Developed Transformer-based models consistently surpassing the State-of-the-Art performance on a complex, massively multi-label dataset with significant labeling noise.
@@ -38,7 +38,7 @@
 * Pioneered a novel architecture for generating supporting evidence for ML model predictions, implemented and deployed it leading to a 300% increase in business KPIs for the product
 * Engaged with customers and gathered feedback to iterate on model improvements, ensuring alignment with customer needs and expectations.
 * Conducted ML feature discovery calls with end users, resulting in the development of simple ML models that significantly enhanced product performance
-* CEstablished a custom quality assurance process for on-premises model deployments in a secure environment, guaranteeing model reliability and performance.
+* Established a custom quality assurance process for on-premises model deployments in a secure environment, guaranteeing model reliability and performance.
 * Authored a series of Architecture Decision Records that still serve as the model for decision documents for the company
 * Actively contributed to the company's culture by hosting weekly game sessions and fostering a positive and engaging atmosphere in meetings.
 * Implemented a comprehensive testing suite for the ML stack, including model minification allowing for pre-commit end-to-end ML testing
@@ -52,7 +52,7 @@
 * Actively engaged in reasearch leading to Publications and a Research Visitor position at St Michaels hospital in Toronto
 * Recognized for expertise, was offered to teach my own cohort as a sessional lecturer in Machine Learning
 
-# UofT - UG (2015-2019)
+# UofT - Bachelors (2015-2019)
 
 * President Stats Union - brought it from a dead union (won with 14 total votes for a president of a union with ~6000 members) to multiple yearly events with attendance in the hundreds
 * Took on teaching assistant (TA) responsibilities for upper-level courses while still an undergraduate, including instructing students in my own year.
@@ -79,4 +79,4 @@
 * Done Business dev efforts to expand the company to North America
 
 # Misc
-* Podcast guest 
+* Podcast guest for the Mentorship podcast (coming soon)
