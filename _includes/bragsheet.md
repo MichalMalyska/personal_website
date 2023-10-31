@@ -1,13 +1,12 @@
 # Semantic Health - ML Lead (2021-2022)
 
 * Spearheaded the research and development of the company's clinical ML offerings (variety of clinical NLP + OCR + Tabular), successfully delivering multiple client deployments, leading to a US expansion, and driving a $60M valuation.
-* Hired and lead a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership and technical capabilities.
+* Hired and led a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership and technical capabilities.
 * Defined Hiring Policies and Interview Processes: Established effective hiring policies, interview questions, scoring systems, and take-home assignments to identify top talent for ML, Data Engineering, and Backend roles.
 * Created the long term ML product vision of the company
 * Re-wrote the initial Python stack reducing technical debt and allowing for new hire onboarding without big issues. Introduced unified code, data, and testing standards
 * Created and deployed multiple new ML product lines based on customer calls and product insights from internal QA efforts leading to increases of 100k ARR per contract
-* Introduced novel non-intrusive data labelling and feedback products allowing to gather more granular labels without impacting the end user's workflow
-* Created a custom multi-armed bandit model deployment scheme eliminating guesswork and quadrupling ML deployment velocity to production (monthly to weekly model release cadence)
+* Introduced a novel non-intrusive data labelling and feedback scheme, increasing the granularity of labels without impacting the end user's workflow, which led to creation of new models with >50\% performance gain on downstream KPIs
 * Created weekly progress reports and presented at all-hands and led customer calls
 * Created extensive model and prediction fallbacks allowing us to eliminate the need for on-call support on the ML side
 * Contributed to Open source libraries supporting US Military veteran care efforts. Named the first outside collaborator to the library.
@@ -17,7 +16,7 @@
 * Led the MLOps + DevOps efforts to integrate ML into dev and staging cloud environments allowing for end-to-end model testing for releases which allowed the team to move away from on-prem testing
 * Led code review and tech debt improvement sprints across the entire python stack
 * Designed and implemented APIs for vending model predictions
-* Roadmapped a new MLOps initiative to allow for better data and model monitoring (Feast + MLFlow + Seldon)
+* Roadmapped and oversaw a new MLOps initiative to allow for better data and model monitoring (Feast + MLFlow + Seldon)
 * Led internal R&D efforts on new modelling schemes to improve the existing products
 
 # UofT - Teaching (2020-2023)
@@ -33,13 +32,14 @@
 * Successfully deployed models to production, initially through Python scripts and database uploads, later optimizing the process by transitioning to Airflow, leading to first long term customer contracts
 * Designed and implemented a diverse stack of models, spanning from basic keyword matching to advanced Deep Learning techniques.
 * Pioneered a novel architecture for generating supporting evidence for ML model predictions, implemented and deployed it leading to a 300% increase in business KPIs for the product
+* Developed a custom multi-armed bandit model deployment scheme eliminating guesswork and quadrupling ML deployment velocity to production (monthly to weekly model release cadence)
 * Engaged with customers and gathered feedback to iterate on model improvements, ensuring alignment with customer needs and expectations.
 * Conducted ML feature discovery calls with end users, resulting in the development of simple ML models that significantly enhanced product performance
 * Established a custom quality assurance process for on-premises model deployments in a secure environment, guaranteeing model reliability and performance.
 * Authored a series of Architecture Decision Records that still serve as the model for decision documents for the company
 * Actively contributed to the company's culture by hosting weekly game sessions and fostering a positive and engaging atmosphere in meetings.
 * Implemented a comprehensive testing suite for the ML stack, including model minification allowing for pre-commit end-to-end ML testing
-* Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing downstream model performance by 35%
+* Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing model performance by 35%
 * Found and solved a major bug in a huge open-source framework (AllenNLP)
 
 # UofT - Masters (2019-2022)
