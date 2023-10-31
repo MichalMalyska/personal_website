@@ -1,11 +1,11 @@
 # Semantic Health - ML Lead (2021-2022)
 
-* Hired and lead a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership capabilities.
+* Spearheaded the research and development of the company's clinical ML offerings (variety of clinical NLP + OCR + Tabular), successfully delivering multiple client deployments, leading to a US expansion, and driving a $60M valuation.
+* Hired and lead a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership and technical capabilities.
 * Defined Hiring Policies and Interview Processes: Established effective hiring policies, interview questions, scoring systems, and take-home assignments to identify top talent for ML, Data Engineering, and Backend roles.
-* ML Product Leadership: Spearheaded ML product roadmapping and delivery, expanding the product into a new market (US).
 * Created the long term ML product vision of the company
-* Code quality and deployments -> Re wrote the initial product stack reducing technical debt and allowing for new hire onboarding without big issues. Introduced unified code and data standards and processes across the company
-* Created multiple new product lines based on customer calls and product insights from internal QA efforts leading to increases of 100k ARR per contract
+* Re-wrote the initial Python stack reducing technical debt and allowing for new hire onboarding without big issues. Introduced unified code, data, and testing standards
+* Created and deployed multiple new ML product lines based on customer calls and product insights from internal QA efforts leading to increases of 100k ARR per contract
 * Introduced novel non-intrusive data labelling and feedback products allowing to gather more granular labels without impacting the end user's workflow
 * Created a custom multi-armed bandit model deployment scheme eliminating guesswork and quadrupling ML deployment velocity to production (monthly to weekly model release cadence)
 * Created weekly progress reports and presented at all-hands and led customer calls
@@ -14,7 +14,7 @@
 * Contributed optimizations to multiple NLP libraries allowing for parallelization of computation (Spacy extensions + Srsly)
 * Supervised research projects leading to multiple scientific publications and product improvements
 * Created an active learning approach allowing to improve data labelling efforts reducing costs by >75% 
-* Led the MLOps + DevOps efforts to create ML dev and staging cloud environments allowing for end-to-end model testing for PRs which allowed the team to move away from on-prem dev environment testing. 
+* Led the MLOps + DevOps efforts to integrate ML into dev and staging cloud environments allowing for end-to-end model testing for releases which allowed the team to move away from on-prem testing
 * Led code review and tech debt improvement sprints across the entire python stack
 * Designed and implemented APIs for vending model predictions
 * Roadmapped a new MLOps initiative to allow for better data and model monitoring (Feast + MLFlow + Seldon)
@@ -22,19 +22,16 @@
 
 # UofT - Teaching (2020-2023)
 
-* Created teaching materials and led the lectures with 0 support at the very start of the pandemic
-* Taught a non-technical (med students) audience statistics
-* Invited to co-teach advanced ML courses alongside David Duvenaud, Murat Erdogdu, Chris Maddison
-* Offered to return to teach the Jimmy Ba Deep Learning course
-* Modernized the course curriculum adding Attention, Transformers, and diffusion models to the class
+* Developed comprehensive educational materials and delivered engaging instruction for a range of undergraduate and graduate courses in Statistics and Machine Learning.
+* Communicated sophisticated technical topics to a non-technical audience
+* Modernized the CSC412 - Probablistic ML course curriculum by adding Attention, Transformers, and Diffusion models
 
 # Semantic Health - Machine Learning Scientist (2019-2020)
 
-* Joined as first (and only technical) employee - architected and built the entire ML stack setting the foundation for the company's AI capabilities
+* Joined as the first employee - architected and built the ML stack setting the foundation for the company's NLP capabilities
 * Developed Transformer-based models consistently surpassing the State-of-the-Art performance on a complex, massively multi-label dataset with significant labeling noise.
 * Successfully deployed models to production, initially through Python scripts and database uploads, later optimizing the process by transitioning to Airflow, leading to first long term customer contracts
 * Designed and implemented a diverse stack of models, spanning from basic keyword matching to advanced Deep Learning techniques.
-* Localizer + Evidence modelling -> built a completely novel model architecture generating supporting evidence for ML predictions 
 * Pioneered a novel architecture for generating supporting evidence for ML model predictions, implemented and deployed it leading to a 300% increase in business KPIs for the product
 * Engaged with customers and gathered feedback to iterate on model improvements, ensuring alignment with customer needs and expectations.
 * Conducted ML feature discovery calls with end users, resulting in the development of simple ML models that significantly enhanced product performance
@@ -43,7 +40,7 @@
 * Actively contributed to the company's culture by hosting weekly game sessions and fostering a positive and engaging atmosphere in meetings.
 * Implemented a comprehensive testing suite for the ML stack, including model minification allowing for pre-commit end-to-end ML testing
 * Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing downstream model performance by 35%
-* Found and solved a bug in a huge open-source framework (AllenNLP)
+* Found and solved a major bug in a huge open-source framework (AllenNLP)
 
 # UofT - Masters (2019-2022)
 
