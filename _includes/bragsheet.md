@@ -1,4 +1,4 @@
-# Semantic Health - ML Lead (2021-2022)
+# Semantic Health (acquired) - ML Lead (2021-2022)
 
 * Spearheaded the research and development of the company's clinical ML offerings (variety of clinical NLP + OCR + Tabular), successfully delivering multiple client deployments, leading to a US expansion, and driving a $60M valuation.
 * Hired and led a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership and technical capabilities.
