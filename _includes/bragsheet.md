@@ -1,3 +1,8 @@
+# Versant StealthCo - ML Operations Lead (2024 - )
+
+* Got buy-in, and successfully implemented good DevOps practices on a very large, very academic codebase
+* Successfully managed AWS and on-prem infrastructure representing more than 1M USD in yearly compute, supporting the work of 10 ML scientists
+
 # Semantic Health (acquired) - ML Lead (2021-2022)
 
 * Spearheaded the research and development of the company's clinical ML offerings (variety of clinical NLP + OCR + Tabular), successfully delivering multiple client deployments, leading to a US expansion, and driving a $60M valuation.
