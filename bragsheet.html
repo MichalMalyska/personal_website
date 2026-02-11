@@ -365,12 +365,21 @@ code {
           : 'default'
     });
   </script>
-<h1 id="fable-therapeutics---ml-operations-lead-2024">Fable Therapeutics - ML Operations Lead (2024 - present)</h1>
+<h1 id="fable-therapeutics---ml-operations-lead-2024---present">Fable Therapeutics - ML Operations Lead (2024 - present)</h1>
 <ul>
-<li>Got buy-in, and successfully implemented good DevOps practices on a very large, very academic codebase</li>
-<li>Successfully managed AWS and on-prem infrastructure representing more than 1M USD in yearly compute, supporting the work of 10 ML scientists</li>
+<li>Re-architected Fable's design-generation pipeline from 27 manually chained Jupyter notebooks into a config-driven Python orchestration system on AWS Batch (auto-queueing, compute routing, spot fleets, centralized observability via CloudWatch).</li>
+<li>Reduced per-run operator time from ~2 weeks of manual coordination to ~8 hours through full automation and standardized failure handling.</li>
+<li>Cut recurring compute cost ~60% per run ($130k-$170k -&gt; $50k-$60k) for a biweekly production pipeline by improving resource utilization and instance selection.</li>
+<li>Chose an incremental rollout over a full EKS/Kubernetes replatform, preserving existing workflows while achieving immediate adoption across all 8 production users.</li>
+<li>Built CI/CD across internal repos and model pipelines using GitHub Actions, enforcing lint/test/build gates, automated Docker builds/deployments, and standardized release workflows.</li>
+<li>Established code quality standards and review operating model (PR templates, review guides, required checks/reviewers), then drove adoption through coaching and documentation across a 9-person team.</li>
+<li>Integrated Weights &amp; Biases artifact/version tracking into the model release workflow, enabling PR-based config changes with full model lineage and reproducibility.</li>
+<li>Reduced required manual interventions during production batch runs by ~70% year-over-year by automating orchestration and eliminating common failure points in the pipeline.</li>
+<li>Reduced inference unit cost by &gt;99% (~$1 -&gt; &lt;$0.01 per prediction) across &gt;90% of production workloads through input pruning, custom kernels, and optimized GPU selection, while maintaining equivalent output quality.</li>
+<li>Reduced training compute from ~1,920 to ~80 H100 GPU-hours by removing CUDA sync bottlenecks, using compiled PyTorch, and adding optimized CUDA kernels, with no model quality loss.</li>
+<li>In a representative 180-day period: contributed 52/152 merged PRs, completed 78/228 PR reviews, authored 491/1200 commits, and reviewed ~120k LOC across a 9-person engineering team.</li>
 </ul>
-<h1 id="semantic-health-acquired---ml-lead-2021 - 2022">Semantic Health (acquired) - ML Lead (2021 - 2022)</h1>
+<h1 id="semantic-health-acquired---ml-lead-2021---2022">Semantic Health (acquired) - ML Lead (2021 - 2022)</h1>
 <ul>
 <li>Spearheaded the research and development of the company's clinical ML offerings (variety of clinical NLP + OCR + Tabular), successfully delivering multiple client deployments, leading to a US expansion, and driving a $60M valuation.</li>
 <li>Hired and led a team of 7 ML Scientist / Engineers: Managed their professional growth, setting objectives, conducting standups, and nurturing their leadership and technical capabilities.</li>
@@ -391,13 +400,13 @@ code {
 <li>Roadmapped and oversaw a new MLOps initiative to allow for better data and model monitoring (Feast + MLflow + Seldon)</li>
 <li>Led internal R&amp;D efforts on new modelling schemes to improve the existing products</li>
 </ul>
-<h1 id="uoft---teaching-2020 - 2023">UofT - Teaching (2020 - 2023)</h1>
+<h1 id="uoft---teaching-2020---2023">UofT - Teaching (2020 - 2023)</h1>
 <ul>
 <li>Developed comprehensive educational materials and delivered engaging instruction for a range of undergraduate and graduate courses in Statistics and Machine Learning.</li>
 <li>Communicated sophisticated technical topics to a non-technical audience</li>
 <li>Modernized the CSC412 - Probabilistic ML course curriculum by adding Attention, Transformers, and Diffusion models</li>
 </ul>
-<h1 id="semantic-health---machine-learning-scientist-2019 - 2020">Semantic Health - Machine Learning Scientist (2019 - 2020)</h1>
+<h1 id="semantic-health---machine-learning-scientist-2019---2020">Semantic Health - Machine Learning Scientist (2019 - 2020)</h1>
 <ul>
 <li>Joined as the first employee - architected and built the ML stack setting the foundation for the company's NLP capabilities</li>
 <li>Developed Transformer-based models consistently surpassing the state-of-the-art performance on a complex, massively multi-label dataset with significant labeling noise.</li>
@@ -414,14 +423,14 @@ code {
 <li>Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing model performance by 35%</li>
 <li>Found and solved a major bug in a huge open-source framework (AllenNLP)</li>
 </ul>
-<h1 id="uoft---masters-2019 - 2022">UofT - Masters (2019 - 2022)</h1>
+<h1 id="uoft---masters-2019---2022">UofT - Masters (2019 - 2022)</h1>
 <ul>
 <li>Part-time masters while working a full-time (early stage startup) job</li>
 <li>An average (only one course not A+) in challenging courses</li>
 <li>Actively engaged in research leading to Publications and a Research Visitor position at St. Michael's Hospital in Toronto</li>
 <li>Recognized for expertise, was offered to teach my own cohort as a sessional lecturer in Machine Learning</li>
 </ul>
-<h1 id="uoft---bachelors-2015 - 2019">UofT - Bachelors (2015 - 2019)</h1>
+<h1 id="uoft---bachelors-2015---2019">UofT - Bachelors (2015 - 2019)</h1>
 <ul>
 <li>President Stats Union - brought it from a dead union (won with 14 total votes for a president of a union with ~6000 members) to multiple yearly events with attendance in the hundreds</li>
 <li>Took on teaching assistant (TA) responsibilities for upper-level courses while still an undergraduate, including instructing students in my own year.</li>
@@ -449,7 +458,7 @@ code {
 </ul>
 <h1 id="misc">Misc</h1>
 <ul>
-<li>Podcast guest for the Mentorship podcast (coming soon)</li>
+<li>Podcast guest for the Mentorship podcast</li>
 </ul>
 
 </body>
