@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<link rel="stylesheet" href="../assets/css/devicon.min.css">
+<!doctype html>
+<link rel="stylesheet" href="../assets/css/devicon.min.css" />
 <html lang="en">
   {% include head.html %}
   <body>
-      {% include header.html %}
-      <section id="about">
-        {% include about.html %}
-      </section>
-        {{ content }}
+    {% include header.html %}
+    <section id="about">{% include about.html %}</section>
+    {{ content }}
+    <script src="{{ '/assets/js/particles.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/sweet-scroll.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
   </body>
 </html>
