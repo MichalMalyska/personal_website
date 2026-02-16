@@ -10,6 +10,9 @@
 * Reduced required manual interventions during production batch runs by ~70% year-over-year by automating orchestration and eliminating common failure points in the pipeline.
 * Reduced inference unit cost by >99% (~$1 -> <$0.01 per prediction) across >90% of production workloads through input pruning, custom kernels, and optimized GPU selection, while maintaining equivalent output quality.
 * Reduced training compute from ~1,920 to ~80 H100 GPU-hours by removing CUDA sync bottlenecks, using compiled PyTorch, and adding optimized CUDA kernels, with no model quality loss.
+* Built a self-hosted observability platform (Grafana + Prometheus with custom Slurm integrations) that unified telemetry across GitHub CI, AWS Batch, on-prem clusters, and external training vendors.
+* Established platform-execution-level visibility for compute utilization, throughput, ownership, and workload size, enabling capacity planning and operational decision-making.
+* Architected and led a bidirectional wet-lab <-> ML data platform, replacing CSV/email handoffs with a governed Postgres pipeline and enabling reliable ML-to-wet-lab design delivery plus fast assay-result flow back to ML.
 * In a representative 180-day period: contributed 52/152 merged PRs, completed 78/228 PR reviews, authored 491/1200 commits, and reviewed ~120k LOC across a 9-person engineering team.
 
 # Semantic Health (acquired) - ML Lead (2021 - 2022)
@@ -54,7 +57,7 @@
 * Actively contributed to the company's culture by hosting weekly game sessions and fostering a positive and engaging atmosphere in meetings.
 * Implemented a comprehensive testing suite for the ML stack, including model minification allowing for pre-commit end-to-end ML testing
 * Planned and conducted data and label quality experiments identifying problems, addressed those by creating a novel, ontology-graph based label smoothing algorithm increasing model performance by 35%
-* Found and solved a major bug in a huge open-source framework (AllenNLP)
+* Found and solved a major bug in a major open-source framework (AllenNLP)
 
 # UofT - Masters (2019 - 2022)
 
@@ -86,7 +89,7 @@
 
 # Family business (2023)
 
-* Built an English version of the site (WP)
+* Built an English version of the site (WordPress)
 * Done Business dev efforts to expand the company to North America
 
 # Misc
