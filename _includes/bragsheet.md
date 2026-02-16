@@ -1,18 +1,16 @@
 # Fable Therapeutics - ML Operations Lead (2024 - present)
 
 * Re-architected Fable's design-generation pipeline from 27 manually chained Jupyter notebooks into a config-driven Python orchestration system on AWS Batch (auto-queueing, compute routing, spot fleets, centralized observability via CloudWatch).
-* Reduced per-run operator time from ~2 weeks of manual coordination to ~8 hours through full automation and standardized failure handling.
-* Cut recurring compute cost ~60% per run ($130k-$170k -> $50k-$60k) for a biweekly production pipeline by improving resource utilization and instance selection.
-* Chose an incremental rollout over a full EKS/Kubernetes replatform, preserving existing workflows while achieving immediate adoption across all 8 production users.
+* Reduced per-run operator time from approximately 2 weeks to approximately 8 hours by replacing a hand-executed 27-notebook workflow with a custom orchestration system spanning multiple compute environments, with automated handoffs, monitoring, and alerting.
+* Cut recurring compute cost by about 60 percent per run, from about 130k to 170k USD down to about 50k to 60k USD, for a biweekly production pipeline by combining orchestration-driven compute routing, spot/instance strategy, and model/runtime optimizations that reduced required compute per workload.
 * Built CI/CD across internal repos and model pipelines using GitHub Actions, enforcing lint/test/build gates, automated Docker builds/deployments, and standardized release workflows.
 * Established code quality standards and review operating model (PR templates, review guides, required checks/reviewers), then drove adoption through coaching and documentation across a 9-person team.
 * Integrated Weights & Biases artifact/version tracking into the model release workflow, enabling PR-based config changes with full model lineage and reproducibility.
-* Reduced required manual interventions during production batch runs by ~70% year-over-year by automating orchestration and eliminating common failure points in the pipeline.
-* Reduced inference unit cost by >99% (~$1 -> <$0.01 per prediction) across >90% of production workloads through input pruning, custom kernels, and optimized GPU selection, while maintaining equivalent output quality.
-* Reduced training compute from ~1,920 to ~80 H100 GPU-hours by removing CUDA sync bottlenecks, using compiled PyTorch, and adding optimized CUDA kernels, with no model quality loss.
-* Built a self-hosted observability platform (Grafana + Prometheus with custom Slurm integrations) that unified telemetry across GitHub CI, AWS Batch, on-prem clusters, and external training vendors.
-* Established platform-execution-level visibility for compute utilization, throughput, ownership, and workload size, enabling capacity planning and operational decision-making.
-* Architected and led a bidirectional wet-lab <-> ML data platform, replacing CSV/email handoffs with a governed Postgres pipeline and enabling reliable ML-to-wet-lab design delivery plus fast assay-result flow back to ML.
+* Reduced required manual interventions during production batch runs by about 70 percent year-over-year by automating orchestration and eliminating common failure points in the pipeline.
+* Reduced inference unit cost by more than 99 percent, from about 1 USD to under 0.01 USD per prediction, across more than 90 percent of production workloads through input pruning, custom kernels, and optimized GPU selection, while maintaining equivalent output quality.
+* Reduced training compute from about 1,920 H100 GPU-hours to about 80 H100 GPU-hours by removing CUDA sync bottlenecks, using compiled PyTorch, and adding optimized CUDA kernels, with no model quality loss.
+* Built a centralized, self-hosted monitoring platform (Grafana/Prometheus with custom Slurm integrations) for all ML workloads, including training, hyperparameter optimization, inference, and large compute jobs, unifying telemetry across GitHub CI, AWS Batch, on-prem infrastructure, and external compute vendors to inform utilization, capacity, and workload-prioritization decisions.
+* Architected and led a bidirectional wet-lab and ML data platform, replacing CSV/email handoffs with a governed Postgres pipeline and enabling reliable ML-to-wet-lab design delivery plus fast assay-result flow back to ML.
 * In a representative 180-day period: contributed 52/152 merged PRs, completed 78/228 PR reviews, authored 491/1200 commits, and reviewed ~120k LOC across a 9-person engineering team.
 
 # Semantic Health (acquired) - ML Lead (2021 - 2022)
